@@ -15,7 +15,7 @@
     },
     "legacy_id": {
       "type": "string",
-      "title": "Texture",
+      "title": "LegacyId",
       "description": "Legacy texture id for older item icons."
     },
     "texture": {

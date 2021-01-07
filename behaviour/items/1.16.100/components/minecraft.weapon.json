@@ -13,12 +13,12 @@
       "additionalProperties": false,
       "event": {
         "type": "string",
-        "title": "UNDOCUMENATED",
+        "title": "Event",
         "description": "UNDOCUMENATED"
       },
       "target": {
         "type": "string",
-        "title": "UNDOCUMENATED",
+        "title": "target",
         "description": "UNDOCUMENATED",
         "enum": ["self"]
       }
@@ -30,12 +30,12 @@
       "additionalProperties": false,
       "event": {
         "type": "string",
-        "title": "UNDOCUMENATED",
+        "title": "Event",
         "description": "UNDOCUMENATED"
       },
       "target": {
         "type": "string",
-        "title": "UNDOCUMENATED",
+        "title": "Target",
         "description": "UNDOCUMENATED",
         "enum": ["self", "holder"]
       }
@@ -47,12 +47,12 @@
       "additionalProperties": false,
       "event": {
         "type": "string",
-        "title": "UNDOCUMENATED",
+        "title": "Event",
         "description": "UNDOCUMENATED"
       },
       "target": {
         "type": "string",
-        "title": "UNDOCUMENATED",
+        "title": "Target",
         "description": "UNDOCUMENATED",
         "enum": ["self"]
       }

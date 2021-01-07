@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
   "$id": "blockception.minecraft.behaviour.entities.filters.1.16.100.base_test",
-  "title": "Test 1.16.100",
+  "title": "BaseTest",
   "type": "string",
   "description": "The test operation for 1.16.100",
   "enum": [

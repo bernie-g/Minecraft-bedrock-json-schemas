@@ -15,12 +15,12 @@
       "properties": {
         "event": {
           "type": "string",
-          "title": "UNDOCUMENATED",
+          "title": "Event",
           "description": "UNDOCUMENATED"
         },
         "target": {
           "type": "string",
-          "title": "UNDOCUMENATED",
+          "title": "Target",
           "description": "UNDOCUMENATED",
           "enum": ["block"]
         }

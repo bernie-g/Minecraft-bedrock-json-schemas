@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema",
   "$id": "blockception.minecraft.behaviour.entities.1.16.100.filters.random_chance",
   "type": "object",
-  "title": "Filters random chance 1.16.100",
+  "title": "RandomChanceFilter",
   "description": "Returns true if the random chance rolls 0 out of a specified max range.",
   "required": ["value"],
   "properties": {

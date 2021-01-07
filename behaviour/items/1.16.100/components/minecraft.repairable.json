@@ -17,7 +17,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "title": "UNDOCUMENATED",
+        "title": "RepairItem",
         "description": "UNDOCUMENATED",
         "additionalProperties": false,
         "properties": {

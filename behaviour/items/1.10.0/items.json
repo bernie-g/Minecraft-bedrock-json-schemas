@@ -8,7 +8,7 @@
     "format_version": {
       "type": "string",
       "description": "TODO description",
-      "title": "TODO title"
+      "title": "Format Version"
     },
     "minecraft:item": {
       "additionalProperties": false,
@@ -71,7 +71,7 @@
             },
             "minecraft:hand_equipped": {
               "type": "boolean",
-              "title": "Hand equipped",
+              "title": "Hand Equipped",
               "description": "Is this a hand equipped item."
             },
             "minecraft:stacked_by_data": {
@@ -185,7 +185,7 @@
           }
         }
       },
-      "title": "TODO title"
+      "title": "Item"
     }
   }
 }

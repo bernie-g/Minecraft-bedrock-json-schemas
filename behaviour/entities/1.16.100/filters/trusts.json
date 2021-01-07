@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema",
   "$id": "blockception.minecraft.behaviour.entities.1.16.100.filters.trusts",
   "type": "object",
-  "title": "Filters trusts 1.16.100",
+  "title": "TrustsFilter",
   "description": "Returns true if the subject is trusted by entity.",
   "properties": {
     "test": {

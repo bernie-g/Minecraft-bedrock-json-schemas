@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
   "$id": "blockception.minecraft.behaviour.entities.filters.1.16.100.base_operator",
-  "title": "Operator",
+  "title": "BaseOperator",
   "type": "string",
   "description": "The operator comparison to apply with 'value'.",
   "default": "equals",

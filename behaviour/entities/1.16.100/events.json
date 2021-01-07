@@ -2,23 +2,23 @@
   "$schema": "http://json-schema.org/draft-07/schema",
   "$id": "blockception.minecraft.behaviour.entities.events.1.16.100",
   "type": "object",
-  "title": "Entity 1.16.100",
+  "title": "Entity",
   "description": "TODO description: ",
   "definitions": {
     "addremove": {
       "additionalProperties": false,
-      "title": "The add/remove schema",
+      "title": "Add Remove",
       "description": "The components groups to add or remove",
       "type": "object",
       "properties": {
         "component_groups": {
-          "title": "The component groups schema",
+          "title": "ComponentGroups",
           "description": "The components groups to add or remove",
           "type": "array",
           "items": {
             "type": "string",
             "description": "TODO description: component groups",
-            "title": "Component Groups"
+            "title": "ComponentGroup"
           }
         }
       }
@@ -102,7 +102,7 @@
     "minecraft:entity_born": {
       "description": "Event called on an entity that is spawned through two entities breeding.",
       "$ref": "#/definitions/event_base",
-      "title": "Minecraft:entity Born"
+      "title": "EntityBorn"
     },
     "minecraft:entity_spawned": {
       "description": "Event called on an entity that is placed in the level.",
