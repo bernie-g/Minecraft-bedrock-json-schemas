@@ -8,7 +8,7 @@
     "format_version": {
       "type": "string",
       "description": "TODO description",
-      "title": "TODO title"
+      "title": "FormatVersion"
     },
     "minecraft:item": {
       "additionalProperties": false,
@@ -38,32 +38,32 @@
             "minecraft:camera": {
               "type": "object",
               "description": "UNDOCUMANTED",
-              "title": "UNDOCUMANTED",
+              "title": "Camera",
               "properties": {
                 "black_bars_duration": {
                   "type": "number",
                   "description": "UNDOCUMANTED",
-                  "title": "UNDOCUMANTED"
+                  "title": "BlackBarsDuration"
                 },
                 "black_bars_screen_ratio": {
                   "type": "number",
                   "description": "UNDOCUMANTED",
-                  "title": "UNDOCUMANTED"
+                  "title": "BlackBarsScreenRatio"
                 },
                 "shutter_duration": {
                   "type": "number",
                   "description": "UNDOCUMANTED",
-                  "title": "UNDOCUMANTED"
+                  "title": "ShutterDuration"
                 },
                 "picture_duration": {
                   "type": "number",
                   "description": "UNDOCUMANTED",
-                  "title": "UNDOCUMANTED"
+                  "title": "PictureDuration"
                 },
                 "slide_away_duration": {
                   "type": "number",
                   "description": "UNDOCUMANTED",
-                  "title": "UNDOCUMANTED"
+                  "title": "SlideAwayDuration"
                 }
               }
             },
@@ -161,7 +161,7 @@
                 "remove_effects": {
                   "type": "array",
                   "description": "Can always eat this item? true or false.",
-                  "title": "remove_effects",
+                  "title": "RemoveEffects",
                   "items": {
                     "type": "string"
                   }

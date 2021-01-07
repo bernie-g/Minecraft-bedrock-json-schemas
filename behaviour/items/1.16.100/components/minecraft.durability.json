@@ -9,8 +9,8 @@
   "properties": {
     "damage_chance": {
       "type": "object",
-      "title": "Damange chance",
-      "description": "Damange chance",
+      "title": "Damage chance",
+      "description": "Damage chance",
       "additionalProperties": false,
       "required": ["min", "max"],
       "properties": {

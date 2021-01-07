@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema",
   "$id": "blockception.minecraft.behaviour.entities.1.16.100.filters.is_leashed_to",
   "type": "object",
-  "title": "Filters is leashed to 1.16.100",
+  "title": "IsLeashed",
   "description": "Returns true if the subject entity leashed to the calling entity.",
   "properties": {
     "test": {

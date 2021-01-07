@@ -7,18 +7,18 @@
   "definitions": {
     "addremove": {
       "additionalProperties": false,
-      "title": "Add/Remove",
+      "title": "Add Remove",
       "description": "The components groups to add or remove",
       "type": "object",
       "properties": {
         "component_groups": {
-          "title": "Group Schema",
+          "title": "ComponentGroups",
           "description": "The components groups to add or remove",
           "type": "array",
           "items": {
             "type": "string",
             "description": "TODO description: component groups",
-            "title": "Component Groups"
+            "title": "ComponentGroup"
           }
         }
       }
@@ -102,7 +102,7 @@
     "minecraft:entity_born": {
       "description": "Event called on an entity that is spawned through two entities breeding.",
       "$ref": "#/definitions/event_base",
-      "title": "Minecraft:entity Born"
+      "title": "EntityBorn"
     },
     "minecraft:entity_spawned": {
       "description": "Event called on an entity that is placed in the level.",

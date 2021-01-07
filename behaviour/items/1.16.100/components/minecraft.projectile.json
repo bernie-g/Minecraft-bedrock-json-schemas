@@ -9,7 +9,7 @@
   "properties": {
     "minimum_critical_power": {
       "type": "number",
-      "title": "Minimum critical power",
+      "title": "MinCritPower",
       "description": "How long you must charge a projectile for it to critically hit."
     },
     "projectile_entity": {

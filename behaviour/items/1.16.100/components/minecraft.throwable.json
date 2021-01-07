@@ -1,13 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
   "$id": "blockception.minecraft.behaviour.1.16.100.items.minecraft:",
-  "title": "minecraft:throwable",
+  "title": "Throwable",
   "description": "Throwable item component. Throwable items, such as a snowball.",
   "type": "object",
   "additionalProperties": false,
   "properties": {
     "do_swing_animation": {
-      "title": "Do swing animation",
+      "title": "Do swing Anim",
       "description": "Whether the item should use the swing animation when thrown. Default is set to false.",
       "default": false,
       "type": "boolean"
@@ -37,7 +37,7 @@
       "type": "number"
     },
     "scale_power_by_draw_duration": {
-      "title": "Scale power by draw duration",
+      "title": "ScalePowerByDrawDuration",
       "description": "Whether or not the power of the throw increases with duration charged. Default is set to false.",
       "default": false,
       "type": "boolean"

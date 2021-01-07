@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema",
   "$id": "blockception.minecraft.behaviour.entities.1.16.100.filters.is_persistent",
   "type": "object",
-  "title": "Filters is persistent 1.16.100",
+  "title": "IsPersistentFilter",
   "description": "Tests if the subject's persistence matches the bool value passed in.",
   "properties": {
     "test": {
