@@ -11,8 +11,9 @@
     "items": {
       "type": "array",
       "description": "Items that we are interested in snacking on",
-      "$ref": "../../../../general/item/identifier.json",
-      "title": "TODO title"
+      "items": {
+        "type": "string"
+      }
     },
     "snacking_cooldown": {
       "type": "number",
