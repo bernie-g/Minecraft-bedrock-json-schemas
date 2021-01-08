@@ -26,7 +26,7 @@
             "items": {
               "type": "string",
               "description": "A item name",
-              "$ref": "../../../../general/item/identifier.json",
+              "$ref": "../../../general/item/identifier.json",
               "title": "Accepted Items"
             },
             "title": "Accepted Items"

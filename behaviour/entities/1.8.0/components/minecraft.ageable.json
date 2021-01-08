@@ -24,7 +24,7 @@
                 "type": "string",
                 "description": "The item name that can be used to feed",
                 "title": "Item",
-                "$ref": "../../../../general/item/identifier.json"
+                "$ref": "../../../general/item/identifier.json"
               },
               "growth": {
                 "type": "integer",
@@ -35,7 +35,7 @@
           },
           {
             "type": "string",
-            "$ref": "../../../../general/item/identifier.json"
+            "$ref": "../../../general/item/identifier.json"
           }
         ],
         "description": "TODO description: feedItems",
@@ -50,7 +50,7 @@
         "type": "string",
         "description": "Item names",
         "title": "Drop Items",
-        "$ref": "../../../../general/item/identifier.json"
+        "$ref": "../../../general/item/identifier.json"
       },
       "title": "Drop Items"
     },

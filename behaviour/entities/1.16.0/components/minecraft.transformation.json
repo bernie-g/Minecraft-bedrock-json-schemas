@@ -58,7 +58,7 @@
               "type": "array",
               "description": "List of blocks that can help the transformation of this entity",
               "items": {
-                "$ref": "../../../../general/blocks_identifiers.json"
+                "$ref": "../../../general/blocks_identifiers.json"
               }
             },
             "value": {

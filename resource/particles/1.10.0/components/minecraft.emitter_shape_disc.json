@@ -16,20 +16,24 @@
           "minItems": 3,
           "maxItems": 3,
           "items": {
-            "$ref": "../../../../molang/1.8.0/number.json"
+            "$ref": "../../../molang/1.8.0/number.json"
           }
         }
       ],
       "description": "TODO description: direction",
       "title": "Direction"
     },
-    "radius": { "$ref": "../../../../molang/1.8.0/number.json", "description": "TODO description: radius", "title": "Radius" },
+    "radius": {
+      "$ref": "../../../molang/1.8.0/number.json",
+      "description": "TODO description: radius",
+      "title": "Radius"
+    },
     "offset": {
       "type": "array",
       "items": {
         "minItems": 3,
         "maxItems": 3,
-        "$ref": "../../../../molang/1.8.0/number.json",
+        "$ref": "../../../molang/1.8.0/number.json",
         "description": "TODO description: offset",
         "title": "Offset"
       },
@@ -49,13 +53,13 @@
           "type": "array",
           "items": [
             {
-              "$ref": "../../../../molang/1.8.0/number.json"
+              "$ref": "../../../molang/1.8.0/number.json"
             },
             {
-              "$ref": "../../../../molang/1.8.0/number.json"
+              "$ref": "../../../molang/1.8.0/number.json"
             },
             {
-              "$ref": "../../../../molang/1.8.0/number.json"
+              "$ref": "../../../molang/1.8.0/number.json"
             }
           ]
         }

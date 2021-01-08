@@ -27,11 +27,11 @@
         {
           "type": "array",
           "items": {
-            "$ref": "../../../../general/item/identifier.json"
+            "$ref": "../../../general/item/identifier.json"
           }
         },
         {
-          "$ref": "../../../../general/item/identifier.json"
+          "$ref": "../../../general/item/identifier.json"
         }
       ]
     }

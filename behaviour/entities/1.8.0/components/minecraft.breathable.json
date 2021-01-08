@@ -107,7 +107,7 @@
       "type": "array",
       "description": "List of blocks this entity can breathe in, in addition to the above",
       "items": {
-        "$ref": "../../../../general/blocks_identifiers.json"
+        "$ref": "../../../general/blocks_identifiers.json"
       },
       "title": "TODO title"
     },
@@ -115,7 +115,7 @@
       "type": "array",
       "description": "List of blocks this entity can breathe in, in addition to the above",
       "items": {
-        "$ref": "../../../../general/blocks_identifiers.json"
+        "$ref": "../../../general/blocks_identifiers.json"
       },
       "title": "TODO title"
     },
@@ -123,7 +123,7 @@
       "type": "array",
       "description": "List of blocks this entity can't breathe in, in addition to the above",
       "items": {
-        "$ref": "../../../../general/blocks_identifiers.json"
+        "$ref": "../../../general/blocks_identifiers.json"
       },
       "title": "TODO title"
     },
@@ -131,7 +131,7 @@
       "type": "array",
       "description": "List of blocks this entity can't breathe in, in addition to the above",
       "items": {
-        "$ref": "../../../../general/blocks_identifiers.json"
+        "$ref": "../../../general/blocks_identifiers.json"
       },
       "title": "TODO title"
     }
