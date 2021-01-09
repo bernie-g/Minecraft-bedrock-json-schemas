@@ -1,4 +1,4 @@
 @echo off
 :x
-call quicktype.bat
+call generate_types.bat
 goto x

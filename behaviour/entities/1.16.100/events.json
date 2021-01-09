@@ -2,12 +2,11 @@
   "$schema": "http://json-schema.org/draft-07/schema",
   "$id": "blockception.minecraft.behaviour.entities.events.1.16.100",
   "type": "object",
-  "title": "Entity 1.16.100",
   "description": "TODO description: ",
   "definitions": {
     "addremove": {
       "additionalProperties": false,
-      "title": "The add/remove schema",
+      "title": "AddAndRemove",
       "description": "The components groups to add or remove",
       "type": "object",
       "properties": {
@@ -29,6 +28,7 @@
       "type": "array",
       "items": {
         "required": ["weight"],
+        "type": "object",
         "properties": {
           "add": {
             "$ref": "#/definitions/addremove",
