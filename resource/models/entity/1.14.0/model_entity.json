@@ -38,8 +38,7 @@
     "debug": {
       "type": "boolean",
       "default": false,
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "format_version": {
       "title": "The 1.14.0 format_version",

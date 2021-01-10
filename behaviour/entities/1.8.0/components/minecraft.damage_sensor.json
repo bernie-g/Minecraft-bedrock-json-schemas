@@ -27,7 +27,7 @@
           "additionalProperties": false,
           "type": "object",
           "properties": {
-            "filters": { "$ref": "../filters.json" },
+            "filters": { "$ref": "../../1.16.100/filters.json" },
             "event": {
               "type": "string",
               "pattern": "^.*$",

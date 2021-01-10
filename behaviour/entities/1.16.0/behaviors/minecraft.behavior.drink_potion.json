@@ -10,6 +10,7 @@
     "priority": { "$ref": "./types/base_priority.json" },
     "speed_multiplier": { "$ref": "./types/base_speed_multiplier.json" },
     "speed_modifier": {
+      "type": "number",
       "default": 0.0,
       "description": "TODO description: speed modifier",
       "title": "Speed Modifier"
@@ -20,6 +21,7 @@
       "items": {
         "required": ["id", "chance", "filters"],
         "additionalProperties": false,
+        "type": "object",
         "properties": {
           "id": {
             "type": "integer",
@@ -37,12 +39,12 @@
           },
           "filters": {
             "description": "The filters to use when determining if this potion can be selected.",
-            "$ref": "../filters.json",
+            "$ref": "../../1.16.100/filters.json",
             "title": "Filters"
           }
         },
         "description": "TODO description: potions",
-        "title": "Potions"
+        "title": "Potion"
       },
       "title": "Potions"
     }

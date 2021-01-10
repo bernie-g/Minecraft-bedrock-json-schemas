@@ -8,8 +8,7 @@
     "function": {
       "type": "string",
       "const": "set_data",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "data": {
       "title": "Data",

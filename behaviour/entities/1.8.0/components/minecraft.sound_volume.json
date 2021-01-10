@@ -10,8 +10,7 @@
     "value": {
       "type": "number",
       "default": 1.0,
-      "description": "The value of the volume the entity uses for sound effects",
-      "title": "TODO title"
+      "description": "The value of the volume the entity uses for sound effects"
     }
   }
 }

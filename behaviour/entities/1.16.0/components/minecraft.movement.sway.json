@@ -14,8 +14,7 @@
     },
     "sway_amplitude": {
       "type": "number",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

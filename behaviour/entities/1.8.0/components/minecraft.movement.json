@@ -27,16 +27,7 @@
           "type": "number"
         },
         {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "range_min": {
-              "type": "number"
-            },
-            "range_max": {
-              "type": "number"
-            }
-          }
+          "$ref": "../../1.16.0/types/range.json"
         }
       ]
     },

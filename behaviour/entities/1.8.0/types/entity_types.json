@@ -11,7 +11,7 @@
       "properties": {
         "filters": {
           "type": "object",
-          "$ref": "../filters.json"
+          "$ref": "../../1.16.100/filters.json"
         },
         "max_dist": {
           "type": "number",

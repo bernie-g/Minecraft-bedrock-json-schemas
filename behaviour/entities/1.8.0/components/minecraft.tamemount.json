@@ -37,8 +37,7 @@
     "attemptTemperMod": {
       "type": "integer",
       "default": 5,
-      "description": "The amount the entity's temper will increase when mounted",
-      "title": "TODO title"
+      "description": "The amount the entity's temper will increase when mounted"
     },
     "autoRejectItems": {
       "description": "The list of items that, if carried while interacting with the entity, will anger it",
@@ -53,14 +52,12 @@
             "$ref": "#/definitions/auto_reject_items"
           }
         }
-      ],
-      "title": "TODO title"
+      ]
     },
     "feed_text": {
       "type": "string",
       "default": "",
-      "description": "The text that shows in the feeding interact button",
-      "title": "TODO title"
+      "description": "The text that shows in the feeding interact button"
     },
     "feedItems": {
       "type": "object",
@@ -76,26 +73,25 @@
             "$ref": "#/definitions/feed_items"
           }
         }
-      ],
-      "title": "TODO title"
+      ]
     },
     "maxTemper": {
       "type": "integer",
       "default": 100,
-      "description": "The maximum value for the entity's random starting temper",
-      "title": "TODO title"
+      "description": "The maximum value for the entity's random starting temper"
     },
     "minTemper": {
       "type": "integer",
       "default": 0,
-      "description": "The minimum value for the entity's random starting temper",
-      "title": "TODO title"
+      "description": "The minimum value for the entity's random starting temper"
     },
     "ride_text": {
       "type": "string",
-      "description": "The text that shows in the riding interact button",
-      "title": "TODO title"
+      "description": "The text that shows in the riding interact button"
     },
-    "tame_event": { "$ref": "../types/event.json", "description": "Event that triggers when the entity becomes tamed", "title": "TODO title" }
+    "tame_event": {
+      "$ref": "../../1.16.100/types/event.json",
+      "description": "Event that triggers when the entity becomes tamed"
+    }
   }
 }

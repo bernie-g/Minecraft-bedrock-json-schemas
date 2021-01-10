@@ -7,8 +7,7 @@
   "properties": {
     "format_version": {
       "type": "string",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "minecraft:item": {
       "additionalProperties": false,
@@ -120,7 +119,14 @@
                 "saturation_modifier": {
                   "type": "string",
                   "description": "Choose: poor, low, normal, good, max, supernatural.",
-                  "enum": ["poor", "low", "normal", "good", "max", "supernatural"]
+                  "enum": [
+                    "poor",
+                    "low",
+                    "normal",
+                    "good",
+                    "max",
+                    "supernatural"
+                  ]
                 },
                 "using_converts_to": {
                   "type": "string",
@@ -198,8 +204,7 @@
             }
           }
         }
-      },
-      "title": "TODO title"
+      }
     }
   }
 }

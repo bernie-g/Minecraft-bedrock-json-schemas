@@ -9,14 +9,12 @@
     "numerator": {
       "type": "number",
       "minimum": 1,
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "denominator": {
       "type": "number",
       "minimum": 1,
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

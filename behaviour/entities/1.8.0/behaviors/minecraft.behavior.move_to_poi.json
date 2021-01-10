@@ -11,8 +11,7 @@
     "speed_multiplier": { "$ref": "./types/base_speed_multiplier.json" },
     "poi_type": {
       "type": "string",
-      "description": "Tells the goal what POI type it should be looking for",
-      "title": "TODO title"
+      "description": "Tells the goal what POI type it should be looking for"
     }
   }
 }

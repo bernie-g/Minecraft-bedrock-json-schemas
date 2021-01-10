@@ -30,13 +30,11 @@
             }
           }
         ]
-      },
-      "title": "TODO title"
+      }
     },
     "remove_effects": {
       "type": "string",
-      "description": "List of identifiers of effects to be removed from this entity after adding this component",
-      "title": "TODO title"
+      "description": "List of identifiers of effects to be removed from this entity after adding this component"
     }
   }
 }

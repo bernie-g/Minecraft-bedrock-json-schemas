@@ -23,12 +23,12 @@
           "entered_block_event": {
             "title": "Entered block event",
             "description": "UNDOCUMENTATED",
-            "$ref": "../types/event.json"
+            "$ref": "../../1.16.100/types/event.json"
           },
           "exited_block_event": {
             "title": "Exited block event",
             "description": "UNDOCUMENTATED",
-            "$ref": "../types/event.json"
+            "$ref": "../../1.16.100/types/event.json"
           }
         }
       }

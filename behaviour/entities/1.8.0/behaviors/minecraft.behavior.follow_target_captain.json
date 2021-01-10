@@ -7,19 +7,17 @@
   "additionalProperties": false,
   "required": [],
   "properties": {
-    "priority": { "ref": "types/base_priority.json" },
-    "speed_multiplier": { "ref": "types/base_speed_multiplier.json" },
+    "priority": { "$ref": "types/base_priority.json" },
+    "speed_multiplier": { "$ref": "types/base_speed_multiplier.json" },
     "follow_distance": {
       "type": "number",
       "default": 0,
-      "description": "Defines the distance in blocks the mob will stay from its target while following.",
-      "title": "TODO title"
+      "description": "Defines the distance in blocks the mob will stay from its target while following."
     },
     "within_radius": {
       "type": "number",
       "default": 0,
-      "description": "Defines the maximum distance in blocks a mob can get from its target captain before giving up trying to follow it.",
-      "title": "TODO title"
+      "description": "Defines the maximum distance in blocks a mob can get from its target captain before giving up trying to follow it."
     }
   }
 }

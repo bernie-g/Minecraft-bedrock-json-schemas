@@ -15,7 +15,7 @@
       "title": "Speed Multiplier"
     },
     "radius_range": {
-      "$ref": "../types/range_number_type.json",
+      "$ref": "../../1.16.100/types/range_number_type.json",
       "default": [5.0, 15.0],
       "description": "Range of radius in blocks of the circle to move around.",
       "title": "Radius Range"
@@ -27,13 +27,13 @@
       "title": "Radius Change Chance"
     },
     "height_above_target_range": {
-      "$ref": "../types/range_number_type.json",
+      "$ref": "../../1.16.100/types/range_number_type.json",
       "default": [0.0, 0.0],
       "description": "When the mob finds a target, the range of height in blocks above the target to start the anchor point.",
       "title": "Height Above Target Range"
     },
     "height_offset_range": {
-      "$ref": "../types/range_number_type.json",
+      "$ref": "../../1.16.100/types/range_number_type.json",
       "default": [0.0, 0.0],
       "description": "The range of height in blocks offset the mob can have from it's anchor point.",
       "title": "Height Offset Range"

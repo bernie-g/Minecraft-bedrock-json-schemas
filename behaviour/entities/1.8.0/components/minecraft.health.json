@@ -7,11 +7,13 @@
   "additionalProperties": false,
   "required": [],
   "properties": {
-    "value": { "$ref": "../types/range_number_type.json", "description": "TODO", "title": "TODO title" },
+    "value": {
+      "$ref": "../../1.16.100/types/range_number_type.json",
+      "description": "TODO"
+    },
     "max": {
       "type": "integer",
-      "description": "TODO",
-      "title": "TODO title"
+      "description": "TODO"
     }
   },
   "dependencies": {

@@ -8,13 +8,12 @@
   "required": [],
   "properties": {
     "priority": {
-      "ref": "types/base_priority.json"
+      "$ref": "types/base_priority.json"
     },
     "probability": {
       "type": "number",
       "minimum": 0,
-      "description": "The probability that the mob will use the goal.",
-      "title": "TODO title"
+      "description": "The probability that the mob will use the goal."
     }
   }
 }

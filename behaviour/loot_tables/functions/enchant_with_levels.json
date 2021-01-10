@@ -8,8 +8,7 @@
     "function": {
       "type": "string",
       "const": "enchant_with_levels",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "levels": {
       "title": "Levels",

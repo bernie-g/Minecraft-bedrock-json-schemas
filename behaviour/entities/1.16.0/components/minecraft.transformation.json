@@ -19,13 +19,12 @@
           }
         }
       },
-      "title": "TODO title",
+
       "additionalProperties": false
     },
     "begin_transform_sound": {
       "type": "string",
-      "description": "Sound to play when the transformation starts",
-      "title": "TODO title"
+      "description": "Sound to play when the transformation starts"
     },
     "delay": {
       "description": "Defines the properties of the delay for the transformation",
@@ -68,8 +67,7 @@
             }
           }
         }
-      ],
-      "title": "TODO title"
+      ]
     },
     "drop_equipment": {
       "type": "boolean",

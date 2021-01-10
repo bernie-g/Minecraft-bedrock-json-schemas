@@ -101,13 +101,11 @@
           }
         }
       },
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "texture_name": {
       "type": "string",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

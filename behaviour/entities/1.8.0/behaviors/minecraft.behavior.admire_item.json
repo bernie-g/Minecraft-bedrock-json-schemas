@@ -13,20 +13,7 @@
       "title": "Admire item sound"
     },
     "sound_interval": {
-      "type": "array",
-      "default": 0,
-      "description": "The range of time in seconds to randomly wait before playing the sound again.",
-      "title": "Sound interval",
-      "items": [
-        {
-          "type": "number",
-          "title": "Minimum"
-        },
-        {
-          "type": "number",
-          "title": "Maximum"
-        }
-      ]
+      "$ref": "../../1.16.0/types/range.json"
     }
   }
 }

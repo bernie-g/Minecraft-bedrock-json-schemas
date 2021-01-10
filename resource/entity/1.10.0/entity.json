@@ -137,8 +137,7 @@
                     "oneOf": [
                       {
                         "type": "string",
-                        "description": "TODO description: oneOf[0]",
-                        "title": "TODO title"
+                        "description": "TODO description: oneOf[0]"
                       },
                       {
                         "type": "object",
@@ -148,8 +147,7 @@
                           "description": "TODO description: additionalProperties",
                           "title": "TODO"
                         },
-                        "description": "TODO description: oneOf[1]",
-                        "title": "TODO title"
+                        "description": "TODO description: oneOf[1]"
                       }
                     ],
                     "description": "TODO description: animate",

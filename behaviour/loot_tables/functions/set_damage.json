@@ -8,8 +8,7 @@
     "function": {
       "type": "string",
       "const": "set_damage",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "damage": {
       "oneOf": [
@@ -28,8 +27,7 @@
           }
         }
       ],
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

@@ -10,8 +10,7 @@
     "drag_factor": {
       "type": "number",
       "default": 0.8,
-      "description": "Drag factor to determine movement speed when in water.",
-      "title": "TODO title"
+      "description": "Drag factor to determine movement speed when in water."
     }
   }
 }

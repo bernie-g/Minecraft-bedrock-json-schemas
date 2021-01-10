@@ -8,20 +8,18 @@
   "required": [],
   "properties": {
     "priority": {
-      "ref": "types/base_priority.json"
+      "$ref": "types/base_priority.json"
     },
     "speed_multiplier": { "$ref": "./types/base_speed_multiplier.json" },
     "search_range": {
       "type": "integer",
       "default": 0,
-      "description": "The distance in blocks it will look for a mob to follow",
-      "title": "TODO title"
+      "description": "The distance in blocks it will look for a mob to follow"
     },
     "stop_distance": {
       "type": "number",
       "default": 2,
-      "description": "The distance in blocks this mob stops from the mob it is following",
-      "title": "TODO title"
+      "description": "The distance in blocks this mob stops from the mob it is following"
     }
   }
 }

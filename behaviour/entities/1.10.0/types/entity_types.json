@@ -12,7 +12,7 @@
       "properties": {
         "filters": {
           "type": "object",
-          "$ref": "../filters.json"
+          "$ref": "../../1.16.100/filters.json"
         },
         "max_dist": {
           "type": "number",
@@ -47,5 +47,8 @@
       }
     }
   },
-  "oneOf": [{ "type": "array", "items": { "$ref": "#/definitions/entity_definition" } }, { "$ref": "#/definitions/entity_definition" }]
+  "oneOf": [
+    { "type": "array", "items": { "$ref": "#/definitions/entity_definition" } },
+    { "$ref": "#/definitions/entity_definition" }
+  ]
 }

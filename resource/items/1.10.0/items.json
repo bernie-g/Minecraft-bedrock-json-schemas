@@ -7,8 +7,7 @@
   "properties": {
     "format_version": {
       "type": "string",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "minecraft:item": {
       "title": "Minecraft item",

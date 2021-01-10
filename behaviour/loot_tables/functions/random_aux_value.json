@@ -8,8 +8,7 @@
     "function": {
       "type": "string",
       "const": "random_aux_value",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "values": {
       "type": "object",
@@ -22,7 +21,7 @@
         }
       },
       "description": "TODO description",
-      "title": "TODO title",
+
       "additionalProperties": false
     }
   }

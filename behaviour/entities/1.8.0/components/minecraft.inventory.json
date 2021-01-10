@@ -10,14 +10,12 @@
     "additional_slots_per_strength": {
       "type": "integer",
       "default": 0,
-      "description": "Number of slots that this entity can gain per extra strength",
-      "title": "TODO title"
+      "description": "Number of slots that this entity can gain per extra strength"
     },
     "can_be_siphoned_from": {
       "type": "boolean",
       "default": false,
-      "description": "If true, the contents of this inventory can be removed by a hopper",
-      "title": "TODO title"
+      "description": "If true, the contents of this inventory can be removed by a hopper"
     },
     "container_type": {
       "type": "string",
@@ -29,26 +27,22 @@
         "inventory",
         "container",
         "hopper"
-      ],
-      "title": "TODO title"
+      ]
     },
     "inventory_size": {
       "type": "integer",
       "default": 5,
-      "description": "Number of slots the container has",
-      "title": "TODO title"
+      "description": "Number of slots the container has"
     },
     "private": {
       "type": "boolean",
       "default": false,
-      "description": "If true, only the entity can access the inventory",
-      "title": "TODO title"
+      "description": "If true, only the entity can access the inventory"
     },
     "restrict_to_owner": {
       "type": "boolean",
       "default": false,
-      "description": "If true, the entity's inventory can only be accessed by its owner or itself",
-      "title": "TODO title"
+      "description": "If true, the entity's inventory can only be accessed by its owner or itself"
     }
   }
 }

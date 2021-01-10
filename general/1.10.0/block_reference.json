@@ -8,8 +8,7 @@
   "properties": {
     "name": {
       "type": "string",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "states": {
       "type": "object",
@@ -29,8 +28,7 @@
           }
         ]
       },
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

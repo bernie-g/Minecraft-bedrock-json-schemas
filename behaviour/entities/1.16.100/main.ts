@@ -24,6 +24,9 @@ import {
   TargetLanguage,
   UnionType,
   ArrayType,
+  NewtonsoftCSharpTargetLanguage,
+  NewtonsoftCSharpRenderer,
+  newtonsoftCSharpOptions,
 } from "quicktype-core";
 
 import { mapFromObject, mapFilterMap } from "collection-utils";
@@ -58,11 +61,6 @@ class DefaultValueTypeAttributeKind extends TypeAttributeKind<
 const defaultValueTypeAttributeKind = new DefaultValueTypeAttributeKind();
 
 async function main(program: string, args: string[]): Promise<void> {
-  if (args.length !== 2) {
-    console.error(`Usage: ${program} SCHEMA`);
-    process.exit(1);
-  }
-
   const inputData = new InputData();
   const source = {
     kind: "schema",
@@ -81,33 +79,29 @@ async function main(program: string, args: string[]): Promise<void> {
   );
 
   const lang = new CustomCSharpLanguage();
-  const { lines } = await quicktype({ lang, inputData });
+  const { lines } = await quicktype({ lang, inputData, combineClasses: false });
   fs.writeFileSync(args[1], lines.join("\n"));
 }
 
-class CustomCSharpLanguage extends CSharpTargetLanguage {
-  constructor() {
-    super("C#", ["csharp"], "cs");
-  }
-
+class CustomCSharpLanguage extends NewtonsoftCSharpTargetLanguage {
   protected makeRenderer(
     renderContext: RenderContext,
     untypedOptionValues: { [name: string]: any }
-  ): CSharpRenderer {
+  ): NewtonsoftCSharpRenderer {
     return new CustomCSharpRenderer(
       this,
       renderContext,
-      getOptionValues(cSharpOptions, untypedOptionValues)
+      getOptionValues(newtonsoftCSharpOptions, untypedOptionValues)
     );
   }
 }
 
-class CustomCSharpRenderer extends CSharpRenderer {
-  options: OptionValues<typeof cSharpOptions>;
+class CustomCSharpRenderer extends NewtonsoftCSharpRenderer {
+  options: OptionValues<typeof newtonsoftCSharpOptions>;
   constructor(
     targetLanguage: TargetLanguage,
     renderContext: RenderContext,
-    private readonly csOptions: OptionValues<typeof cSharpOptions>
+    private readonly csOptions: OptionValues<typeof newtonsoftCSharpOptions>
   ) {
     super(targetLanguage, renderContext, csOptions);
     this.options = csOptions;
@@ -121,7 +115,7 @@ class CustomCSharpRenderer extends CSharpRenderer {
     return undefined;
   }
 
-  private stringCaseValue(t: Type, stringCase: string): Sourcelike {
+  private stringCaseValue2(t: Type, stringCase: string): Sourcelike {
     if (t.kind === "string") {
       return ['"', utf16StringEscape(stringCase), '"'];
     } else if (t instanceof EnumType) {
@@ -183,7 +177,7 @@ class CustomCSharpRenderer extends CSharpRenderer {
         }
       }
     } else if (targetType instanceof EnumType) {
-      const enumName = this.stringCaseValue(targetType as EnumType, value);
+      const enumName = this.stringCaseValue2(targetType as EnumType, value);
       return [originalDefinition, " = ", enumName, ";"];
     } else if (typeof value === "boolean") {
       return [

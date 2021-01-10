@@ -56,8 +56,7 @@
             "type": "string"
           }
         ]
-      },
-      "title": "TODO title"
+      }
     },
     "travel_distance_events": {
       "title": "Travel distance events",

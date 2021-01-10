@@ -10,8 +10,7 @@
     "mutation_rate": {
       "type": "number",
       "default": 0.03125,
-      "description": "Chance that an allele will be replaced with a random one instead of the parent's allele during birth.",
-      "title": "TODO title"
+      "description": "Chance that an allele will be replaced with a random one instead of the parent's allele during birth."
     },
     "genes": {
       "type": "array",
@@ -20,24 +19,14 @@
         "description": "The list of genes that this entity has and will cross with a partner during breeding.",
         "properties": {
           "allele_range": {
+            "title": "Allele",
             "description": "The range of positive integer allele values for this gene. Spawned mobs will have a random number in this range assigned to them.",
             "oneOf": [
               {
                 "type": "integer"
               },
               {
-                "properties": {
-                  "range_min": {
-                    "type": "integer",
-                    "default": 0,
-                    "description": "Lower bound of the allele values for this gene."
-                  },
-                  "range_max": {
-                    "type": "integer",
-                    "default": 0,
-                    "description": "Upper bound of the allele values for this gene."
-                  }
-                }
+                "$ref": "../../1.16.0/types/range.json"
               }
             ]
           },
@@ -45,9 +34,11 @@
             "type": "array",
             "description": "The list of genetic variants for this gene. These check for particular allele combinations and fire events when all of them are satisfied.",
             "items": {
+              "title": "GeneticVariant",
+              "type": "object",
               "properties": {
                 "birth_event": {
-                  "$ref": "../types/event.json",
+                  "$ref": "../../1.16.100/types/event.json",
                   "description": "Event to run when this mob is created and matches the above allele conditions."
                 },
                 "both_allele": {
@@ -57,22 +48,7 @@
                       "type": "integer"
                     },
                     {
-                      "type": "object",
-                      "description": "UNDOCUMENTATED",
-                      "title": "UNDOCUMENTATED",
-                      "additionalProperties": false,
-                      "properties": {
-                        "range_min": {
-                          "type": "integer",
-                          "description": "UNDOCUMENTATED",
-                          "title": "UNDOCUMENTATED"
-                        },
-                        "range_max": {
-                          "type": "integer",
-                          "description": "UNDOCUMENTATED",
-                          "title": "UNDOCUMENTATED"
-                        }
-                      }
+                      "$ref": "../../1.16.0/types/range.json"
                     }
                   ]
                 },
@@ -96,8 +72,7 @@
           }
         }
       },
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

@@ -155,7 +155,7 @@
               "title": "UNDOCUMENTATED"
             },
             "event_trigger": {
-              "$ref": "../types/event.json"
+              "$ref": "../../1.16.100/types/event.json"
             }
           }
         },

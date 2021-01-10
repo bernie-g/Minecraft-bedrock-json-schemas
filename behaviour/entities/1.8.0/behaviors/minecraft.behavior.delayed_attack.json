@@ -11,38 +11,32 @@
     "attack_duration": {
       "type": "number",
       "default": 1,
-      "description": "The duration of the attack animation in seconds",
-      "title": "TODO title"
+      "description": "The duration of the attack animation in seconds"
     },
     "attack_once": {
       "type": "boolean",
       "default": false,
-      "description": "If true, this mob will attack only one time.",
-      "title": "TODO title"
+      "description": "If true, this mob will attack only one time."
     },
     "attack_types": {
       "type": "string",
       "default": "",
-      "description": "Defines the entity types this mob will attack",
-      "title": "TODO title"
+      "description": "Defines the entity types this mob will attack"
     },
     "hit_delay_pct": {
       "type": "number",
       "default": 1,
-      "description": "The percentage of the attack_duration that must pass before the hit is made",
-      "title": "TODO title"
+      "description": "The percentage of the attack_duration that must pass before the hit is made"
     },
     "random_stop_interval": {
       "type": "integer",
       "default": 0,
-      "description": "Defines the probability the mob will stop fighting. A value of 0 disables randomly stopping, while a value of 1 defines a 50% chance",
-      "title": "TODO title"
+      "description": "Defines the probability the mob will stop fighting. A value of 0 disables randomly stopping, while a value of 1 defines a 50% chance"
     },
     "reach_multiplier": {
       "type": "number",
       "default": 2,
-      "description": "Multiplier for how far outside its box the mob can reach its target (this can be used to simulate a mob with longer arms by making this bigger)",
-      "title": "TODO title"
+      "description": "Multiplier for how far outside its box the mob can reach its target (this can be used to simulate a mob with longer arms by making this bigger)"
     },
     "require_complete_path": {
       "type": "boolean",
@@ -51,14 +45,12 @@
     },
     "sound_event": {
       "type": "string",
-      "description": "The sound event to play when the attack starts",
-      "title": "TODO title"
+      "description": "The sound event to play when the attack starts"
     },
     "track_target": {
       "type": "boolean",
       "default": false,
-      "description": "If true, this mob will chase after the target as long as it's a valid target",
-      "title": "TODO title"
+      "description": "If true, this mob will chase after the target as long as it's a valid target"
     }
   }
 }

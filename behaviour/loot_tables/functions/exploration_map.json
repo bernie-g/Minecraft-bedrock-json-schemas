@@ -8,8 +8,7 @@
     "function": {
       "type": "string",
       "const": "exploration_map",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "destination": {
       "type": "string",
@@ -27,8 +26,7 @@
         "shipwreck",
         "buriedtreasure",
         "pillageroutpost"
-      ],
-      "title": "TODO title"
+      ]
     }
   }
 }

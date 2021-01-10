@@ -18,7 +18,7 @@
           "title": "Baby Type"
         },
         "breed_event": {
-          "$ref": "../types/event.json",
+          "$ref": "../../1.16.100/types/event.json",
           "description": "Event to run when this entity breeds.",
           "title": "Breed Event"
         },
@@ -98,14 +98,12 @@
           "items": {
             "type": "string",
             "description": "An item that can be used to get the entity into the 'love' state",
-            "$ref": "../../../../general/item/identifier.json",
-            "title": "TODO title"
+            "$ref": "../../../../general/item/identifier.json"
           }
         },
         {
           "type": "string",
-          "$ref": "../../../../general/item/identifier.json",
-          "title": "TODO title"
+          "$ref": "../../../../general/item/identifier.json"
         }
       ]
     },
@@ -124,8 +122,7 @@
             "$ref": "#/definitions/breeds_with_spec"
           }
         }
-      ],
-      "title": "TODO title"
+      ]
     },
     "deny_parents_variant": {
       "type": "object",
@@ -177,7 +174,11 @@
       "maximum": 1.0,
       "title": "Extra Baby Chance"
     },
-    "love_filters": { "$ref": "../filters.json", "description": "The filters to run when attempting to fall in love.", "title": "Love Filters" },
+    "love_filters": {
+      "$ref": "../../1.16.100/filters.json",
+      "description": "The filters to run when attempting to fall in love.",
+      "title": "Love Filters"
+    },
     "mutation_factor": {
       "type": "object",
       "description": "Determines how likely the babies are to NOT inherit one of their parent's variances. Values are between 0.0 and 1.0, with a higher number meaning more likely to mutate.",

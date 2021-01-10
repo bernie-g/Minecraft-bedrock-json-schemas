@@ -64,8 +64,7 @@
           "type": "integer"
         }
       ],
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   },
   "additionalProperties": {

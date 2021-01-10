@@ -30,7 +30,7 @@
             "description": "If true, the mob will do the casting animations and render spell particles"
           },
           "filters": {
-            "$ref": "../filters.json"
+            "$ref": "../../1.16.100/filters.json"
           },
           "max_activation_range": {
             "type": "number",
@@ -129,8 +129,7 @@
             "description": "The weight of this spell. Controls how likely the mob is to choose this spell when casting one"
           }
         }
-      },
-      "title": "TODO title"
+      }
     }
   }
 }

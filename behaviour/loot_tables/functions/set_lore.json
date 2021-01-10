@@ -8,16 +8,14 @@
     "function": {
       "type": "string",
       "const": "set_lore",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "lore": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

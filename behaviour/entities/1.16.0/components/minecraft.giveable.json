@@ -8,8 +8,7 @@
   "required": [],
   "properties": {
     "triggers": {
-      "description": "UNDOCUMENTATED",
-      "title": "UNDOCUMENTATED",
+      "type": "object",
       "properties": {
         "cooldown": {
           "type": "number",
@@ -28,7 +27,7 @@
           "title": "Properties"
         },
         "on_give": {
-          "$ref": "../types/event.json",
+          "$ref": "../../1.16.100/types/event.json",
           "description": "Event to fire when the correct item is given.",
           "title": "On Give"
         }

@@ -7,12 +7,15 @@
   "additionalProperties": false,
   "required": [],
   "properties": {
-    "filters": { "$ref": "../filters.json", "description": "The filter group that defines the conditions for this trigger", "title": "Filters" },
+    "filters": {
+      "$ref": "../../1.16.100/filters.json",
+      "description": "The filter group that defines the conditions for this trigger",
+      "title": "Filters"
+    },
     "force_use": {
       "type": "boolean",
       "default": false,
-      "description": "Determines if item can be used regardless of entity being at full health",
-      "title": "TODO title"
+      "description": "Determines if item can be used regardless of entity being at full health"
     },
     "items": {
       "description": "The array of items that can be used to heal this entity",
@@ -21,7 +24,7 @@
         "type": "object",
         "properties": {
           "filters": {
-            "$ref": "../filters.json",
+            "$ref": "../../1.16.100/filters.json",
             "description": "The filter group that defines the conditions for using this item to heal the entity"
           },
           "heal_amount": {
@@ -34,8 +37,7 @@
             "description": "Item identifier that can be used to heal this entity"
           }
         }
-      },
-      "title": "TODO title"
+      }
     }
   }
 }

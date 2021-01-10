@@ -8,7 +8,7 @@
     "title": "The entity type",
     "type": "object",
     "properties": {
-      "filters": { "type": "object", "$ref": "../filters.json" },
+      "filters": { "type": "object", "$ref": "../../1.16.100/filters.json" },
       "max_dist": {
         "type": "number",
         "description": "Maximum distance this mob can be away to be a valid choice",

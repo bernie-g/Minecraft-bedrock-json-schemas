@@ -10,8 +10,7 @@
     "value": {
       "type": "number",
       "default": 0.0,
-      "description": "Angle in degrees",
-      "title": "TODO title"
+      "description": "Angle in degrees"
     }
   }
 }

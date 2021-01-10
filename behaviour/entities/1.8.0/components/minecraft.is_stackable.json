@@ -9,8 +9,7 @@
   "properties": {
     "value": {
       "type": "boolean",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

@@ -12,6 +12,7 @@
       "type": "array",
       "items": {
         "title": "Conditional value",
+        "type": "object",
         "description": "The object containing the conditional bandwidth optimization values.",
         "additionalProperties": false,
         "properties": {
@@ -35,7 +36,7 @@
             "description": "Conditions that must be met for these optimization values to be used.",
             "type": "array",
             "items": {
-              "$ref": "../filters.json"
+              "$ref": "../../1.16.100/filters.json"
             }
           }
         }

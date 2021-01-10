@@ -10,13 +10,11 @@
     "max_turn": {
       "type": "number",
       "default": 30,
-      "description": "The maximum number in degrees the mob can turn per tick.",
-      "title": "TODO title"
+      "description": "The maximum number in degrees the mob can turn per tick."
     },
     "sway_amplitude": {
       "type": "number",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

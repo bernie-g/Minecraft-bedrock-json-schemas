@@ -9,27 +9,26 @@
     "function": {
       "type": "string",
       "const": "set_book_contents",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "author": {
       "type": "string",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "title": {
       "type": "string",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "pages": {
       "type": "array",
       "items": {
         "type": "string",
-        "examples": ["Some text", "{\"rawtext\":[ {\"translate\":\"some.text\"}]}"]
+        "examples": [
+          "Some text",
+          "{\"rawtext\":[ {\"translate\":\"some.text\"}]}"
+        ]
       },
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

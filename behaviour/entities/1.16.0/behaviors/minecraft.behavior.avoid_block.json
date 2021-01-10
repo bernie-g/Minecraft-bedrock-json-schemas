@@ -7,7 +7,7 @@
   "additionalProperties": false,
   "properties": {
     "priority": {
-      "ref": "types/base_priority.json"
+      "$ref": "types/base_priority.json"
     },
     "tick_interval": {
       "type": "integer",
@@ -59,7 +59,7 @@
       "title": "Walk speed modifier",
       "description": "UNDOCUMENTATED",
       "items": {
-        "$ref": "../types/event.json"
+        "$ref": "../../1.16.100/types/event.json"
       }
     },
     "sound_interval": {
@@ -84,16 +84,7 @@
           "type": "number"
         },
         {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "range_min": {
-              "type": "number"
-            },
-            "range_max": {
-              "type": "number"
-            }
-          }
+          "$ref": "../../1.16.0/types/range.json"
         }
       ]
     }

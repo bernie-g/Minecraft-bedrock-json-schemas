@@ -14,7 +14,7 @@
       "properties": {
         "filters": {
           "description": "If present, the specified entity will only spawn if the filter evaluates to true",
-          "$ref": "../filters.json"
+          "$ref": "../../1.16.100/filters.json"
         },
         "max_wait_time": {
           "type": "integer",

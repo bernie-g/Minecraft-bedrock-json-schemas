@@ -38,10 +38,13 @@
         "description": "TODO description: offset",
         "title": "Offset"
       },
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
-    "radius": { "$ref": "../../../../molang/1.8.0/number.json", "description": "TODO description: radius", "title": "Radius" },
+    "radius": {
+      "$ref": "../../../../molang/1.8.0/number.json",
+      "description": "TODO description: radius",
+      "title": "Radius"
+    },
     "surface_only": {
       "type": "boolean",
       "description": "TODO description: surface only",

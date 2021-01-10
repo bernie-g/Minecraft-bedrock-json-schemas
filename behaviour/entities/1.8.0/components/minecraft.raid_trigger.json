@@ -8,9 +8,8 @@
   "required": [],
   "properties": {
     "triggered_event": {
-      "$ref": "../types/event.json",
-      "description": "Event to run we attempt to trigger a raid on the village.",
-      "title": "TODO title"
+      "$ref": "../../1.16.100/types/event.json",
+      "description": "Event to run we attempt to trigger a raid on the village."
     }
   }
 }

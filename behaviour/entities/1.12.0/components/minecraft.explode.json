@@ -51,20 +51,7 @@
           "type": "number"
         },
         {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "range_min": {
-              "type": "number",
-              "description": "UNDOCUMENTATED",
-              "title": "UNDOCUMENTATED"
-            },
-            "range_max": {
-              "type": "number",
-              "description": "UNDOCUMENTATED",
-              "title": "UNDOCUMENTATED"
-            }
-          }
+          "$ref": "../../1.16.0/types/range.json"
         }
       ]
     },

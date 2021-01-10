@@ -8,8 +8,7 @@
     "function": {
       "type": "string",
       "const": "set_data_from_color_index",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

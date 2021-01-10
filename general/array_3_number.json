@@ -8,7 +8,6 @@
   "maximum": 3,
   "items": {
     "type": "number",
-    "description": "An number",
-    "title": "TODO title"
+    "description": "An number"
   }
 }

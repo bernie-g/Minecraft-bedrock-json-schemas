@@ -17,7 +17,7 @@
         "additionalProperties": false,
         "properties": {
           "filters": {
-            "$ref": "../filters.json"
+            "$ref": "../../1.16.100/filters.json"
           },
           "cause": {
             "type": "string",

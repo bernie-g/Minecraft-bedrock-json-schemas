@@ -11,8 +11,7 @@
     "set_persistent": {
       "type": "boolean",
       "default": false,
-      "description": "Allows the actor to be set to persist upon targeting a player",
-      "title": "TODO title"
+      "description": "Allows the actor to be set to persist upon targeting a player"
     }
   }
 }

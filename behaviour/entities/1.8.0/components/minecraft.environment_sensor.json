@@ -12,7 +12,7 @@
       "title": "On Environement",
       "properties": {
         "filters": {
-          "$ref": "../filters.json",
+          "$ref": "../../1.16.100/filters.json",
           "description": "The filters to evualate for this environment sensor",
           "title": "Filters"
         },

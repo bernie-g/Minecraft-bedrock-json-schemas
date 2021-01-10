@@ -8,8 +8,7 @@
     "function": {
       "type": "string",
       "const": "random_dye",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

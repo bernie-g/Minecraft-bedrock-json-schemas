@@ -21,7 +21,7 @@
       "title": "Probability"
     },
     "look_time": {
-      "$ref": "../types/range_number_type.json",
+      "$ref": "../../1.16.100/types/range_number_type.json",
       "default": [2, 4],
       "description": "Time range to look at the entity",
       "title": "Look Time"
@@ -40,7 +40,7 @@
     },
     "filters": {
       "description": "Filter to determine the conditions for this mob to look at the entity",
-      "$ref": "../filters.json",
+      "$ref": "../../1.16.100/filters.json",
       "title": "Filters"
     }
   }

@@ -55,8 +55,7 @@
             "$ref": "#/definitions/auto_reject_items"
           }
         }
-      ],
-      "title": "TODO title"
+      ]
     },
     "feed_text": {
       "type": "string",
@@ -96,6 +95,9 @@
       "description": "The text that shows in the riding interact button",
       "title": "Ride text"
     },
-    "tame_event": { "$ref": "../types/event.json", "description": "Event that triggers when the entity becomes tamed", "title": "TODO title" }
+    "tame_event": {
+      "$ref": "../../1.16.100/types/event.json",
+      "description": "Event that triggers when the entity becomes tamed"
+    }
   }
 }

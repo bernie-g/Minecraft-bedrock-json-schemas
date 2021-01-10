@@ -12,7 +12,7 @@
       "description": "A entity type",
       "properties": {
         "filters": {
-          "$ref": "../filters.json",
+          "$ref": "../../1.16.100/filters.json",
           "description": "Conditions that make this target a valid type.",
           "title": "Filters"
         },

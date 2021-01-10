@@ -10,8 +10,7 @@
     "priority": { "$ref": "./types/base_priority.json" },
     "cast_duration": {
       "type": "number",
-      "description": "Time in seconds for the entire event sending process",
-      "title": "TODO title"
+      "description": "Time in seconds for the entire event sending process"
     },
     "sequence": {
       "type": "array",
@@ -36,8 +35,7 @@
             "description": "The sound event to play when this step happens"
           }
         }
-      },
-      "title": "TODO title"
+      }
     }
   }
 }

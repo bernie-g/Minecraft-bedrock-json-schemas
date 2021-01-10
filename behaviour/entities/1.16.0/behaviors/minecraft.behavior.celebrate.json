@@ -7,7 +7,7 @@
   "additionalProperties": false,
   "properties": {
     "priority": {
-      "ref": "types/base_priority.json"
+      "$ref": "types/base_priority.json"
     },
     "celebration_sound": {
       "type": "string",
@@ -43,16 +43,7 @@
           "type": "number"
         },
         {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "range_min": {
-              "type": "number"
-            },
-            "range_max": {
-              "type": "number"
-            }
-          }
+          "$ref": "../../1.16.0/types/range.json"
         }
       ]
     },
@@ -83,16 +74,7 @@
           "type": "number"
         },
         {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "range_min": {
-              "type": "number"
-            },
-            "range_max": {
-              "type": "number"
-            }
-          }
+          "$ref": "../../1.16.0/types/range.json"
         }
       ]
     }

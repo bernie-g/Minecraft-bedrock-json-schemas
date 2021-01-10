@@ -11,19 +11,16 @@
     "cooldown_time": {
       "type": "number",
       "default": 0,
-      "description": "Time in seconds the mob has to wait before using the goal again",
-      "title": "TODO title"
+      "description": "Time in seconds the mob has to wait before using the goal again"
     },
     "drop_item_chance": {
       "type": "number",
       "default": 1,
-      "description": "The probability that the mob will drop an item when it sneezes.",
-      "title": "TODO title"
+      "description": "The probability that the mob will drop an item when it sneezes."
     },
     "entity_types": {
       "$ref": "../types/entity_types.json",
-      "description": "List of entity types this mob will startle (cause to jump) when it sneezes.",
-      "title": "TODO title"
+      "description": "List of entity types this mob will startle (cause to jump) when it sneezes."
     },
     "loot_table": {
       "type": "string",

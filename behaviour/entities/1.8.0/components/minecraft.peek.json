@@ -7,12 +7,17 @@
   "additionalProperties": false,
   "required": [],
   "properties": {
-    "on_close": { "$ref": "../types/event.json", "description": "Event to call when the entity is done peeking", "title": "TODO title" },
-    "on_open": { "$ref": "../types/event.json", "description": "Event to call when the entity starts peeking", "title": "TODO title" },
+    "on_close": {
+      "$ref": "../../1.16.100/types/event.json",
+      "description": "Event to call when the entity is done peeking"
+    },
+    "on_open": {
+      "$ref": "../../1.16.100/types/event.json",
+      "description": "Event to call when the entity starts peeking"
+    },
     "on_target_open": {
-      "$ref": "../types/event.json",
-      "description": "Event to call when the entity's target entity starts peeking",
-      "title": "TODO title"
+      "$ref": "../../1.16.100/types/event.json",
+      "description": "Event to call when the entity's target entity starts peeking"
     }
   }
 }

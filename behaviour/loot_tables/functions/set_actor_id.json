@@ -8,13 +8,11 @@
     "function": {
       "type": "string",
       "const": "set_actor_id",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "id": {
       "type": "string",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

@@ -35,8 +35,7 @@
               "type": "number",
               "title": "B"
             }
-          ],
-          "title": "TODO title"
+          ]
         },
         {
           "type": "number",
@@ -47,12 +46,13 @@
     "time_down_event": {
       "description": "Event to fire when the time on the timer runs out",
       "title": "TODO",
-      "$ref": "../types/event.json"
+      "$ref": "../../1.16.100/types/event.json"
     },
     "random_time_choices": {
       "type": "array",
       "description": "This is a list of objects, representing one value in seconds that can be picked before firing the event and an optional weight. Incompatible with time.",
       "items": {
+        "type": "object",
         "properties": {
           "weight": {
             "type": "integer",

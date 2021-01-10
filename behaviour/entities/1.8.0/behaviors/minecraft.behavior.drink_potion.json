@@ -5,6 +5,35 @@
   "title": "Behavior.beg 1.8.0",
   "description": "Allows the mob to drink potions based on specified environment conditions.",
   "additionalProperties": false,
+  "definitions": {
+    "potion": {
+      "required": ["id", "chance", "filters"],
+      "type": "object",
+      "description": "TODO description: potions",
+      "title": "Potion",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "default": -1,
+          "description": "The registry ID of the potion to use",
+          "title": "Id"
+        },
+        "chance": {
+          "type": "number",
+          "default": 1.0,
+          "minimum": 0,
+          "maximum": 1,
+          "description": "The percent chance (from 0.0 to 1.0) of this potion being selected when searching for a potion to use.",
+          "title": "Chance"
+        },
+        "filters": {
+          "description": "The filters to use when determining if this potion can be selected.",
+          "$ref": "../../1.16.100/filters.json",
+          "title": "Filters"
+        }
+      }
+    }
+  },
   "required": [],
   "properties": {
     "priority": { "$ref": "./types/base_priority.json" },
@@ -18,31 +47,7 @@
       "type": "array",
       "description": "A list of potions that this entity can drink.",
       "items": {
-        "required": ["id", "chance", "filters"],
-        "additionalProperties": false,
-        "properties": {
-          "id": {
-            "type": "integer",
-            "default": -1,
-            "description": "The registry ID of the potion to use",
-            "title": "Id"
-          },
-          "chance": {
-            "type": "number",
-            "default": 1.0,
-            "minimum": 0,
-            "maximum": 1,
-            "description": "The percent chance (from 0.0 to 1.0) of this potion being selected when searching for a potion to use.",
-            "title": "Chance"
-          },
-          "filters": {
-            "description": "The filters to use when determining if this potion can be selected.",
-            "$ref": "../filters.json",
-            "title": "Filters"
-          }
-        },
-        "description": "TODO description: potions",
-        "title": "Potions"
+        "$ref": "#/definitions/potion"
       },
       "title": "Potions"
     }

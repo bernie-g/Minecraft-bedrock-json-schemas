@@ -8,13 +8,11 @@
     "function": {
       "type": "string",
       "const": "set_name",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "name": {
       "type": "string",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

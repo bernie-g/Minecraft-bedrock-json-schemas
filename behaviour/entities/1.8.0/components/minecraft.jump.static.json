@@ -10,8 +10,7 @@
     "jump_power": {
       "type": "number",
       "default": 0.42,
-      "description": "The initial vertical velocity for the jump",
-      "title": "TODO title"
+      "description": "The initial vertical velocity for the jump"
     }
   }
 }

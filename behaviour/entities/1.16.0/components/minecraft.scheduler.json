@@ -30,10 +30,10 @@
         "title": "UNDOCUMENTATED",
         "properties": {
           "filters": {
-            "$ref": "../filters.json"
+            "$ref": "../../1.16.100/filters.json"
           },
           "event": {
-            "$ref": "../types/event.json"
+            "$ref": "../../1.16.100/types/event.json"
           }
         }
       }

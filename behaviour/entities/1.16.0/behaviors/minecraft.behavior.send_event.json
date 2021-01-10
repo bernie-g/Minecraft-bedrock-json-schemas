@@ -37,8 +37,7 @@
     "priority": { "$ref": "./types/base_priority.json" },
     "cast_duration": {
       "type": "number",
-      "description": "Time in seconds for the entire event sending process",
-      "title": "TODO title"
+      "description": "Time in seconds for the entire event sending process"
     },
     "event_choices": {
       "type": "array",
@@ -71,7 +70,7 @@
             "description": "UNDOCUMENTATED"
           },
           "filters": {
-            "$ref": "../filters.json"
+            "$ref": "../../1.16.100/filters.json"
           },
           "particle_color": {
             "type": "string",
@@ -95,6 +94,9 @@
         }
       }
     },
-    "sequence": { "$ref": "#/definitions/sequence", "description": "TODO description", "title": "TODO title" }
+    "sequence": {
+      "$ref": "#/definitions/sequence",
+      "description": "TODO description"
+    }
   }
 }

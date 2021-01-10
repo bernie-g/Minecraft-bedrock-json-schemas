@@ -72,7 +72,7 @@
       "title": "On stay completed",
       "description": "UNDOCUMENTATED",
       "items": {
-        "$ref": "../types/event.json"
+        "$ref": "../../1.16.100/types/event.json"
       }
     },
     "on_reach": {
@@ -80,7 +80,7 @@
       "title": "On reach",
       "description": "UNDOCUMENTATED",
       "items": {
-        "$ref": "../types/event.json"
+        "$ref": "../../1.16.100/types/event.json"
       }
     }
   }

@@ -10,20 +10,17 @@
     "default_block_cost": {
       "type": "number",
       "default": 0,
-      "description": "Cost for non-preferred blocks",
-      "title": "TODO title"
+      "description": "Cost for non-preferred blocks"
     },
     "jump_cost": {
       "type": "integer",
       "default": 0,
-      "description": "Added cost for jumping up a node",
-      "title": "TODO title"
+      "description": "Added cost for jumping up a node"
     },
     "max_fall_blocks": {
       "type": "integer",
       "default": 3,
-      "description": "Distance mob can fall without taking damage",
-      "title": "TODO title"
+      "description": "Distance mob can fall without taking damage"
     },
     "preferred_path_blocks": {
       "type": "array",
@@ -43,8 +40,7 @@
             }
           }
         }
-      },
-      "title": "TODO title"
+      }
     }
   }
 }

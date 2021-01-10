@@ -8,13 +8,11 @@
     "function": {
       "type": "string",
       "const": "set_banner_details",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "type": {
       "type": "integer",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     }
   }
 }

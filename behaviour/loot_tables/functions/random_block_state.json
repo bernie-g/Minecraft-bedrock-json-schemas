@@ -8,13 +8,11 @@
     "function": {
       "type": "string",
       "const": "random_block_state",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "block_state": {
       "type": "string",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "values": {
       "type": "object",
@@ -29,7 +27,7 @@
         }
       },
       "description": "TODO description",
-      "title": "TODO title",
+
       "additionalProperties": false
     }
   }

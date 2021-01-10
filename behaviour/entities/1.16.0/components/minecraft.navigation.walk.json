@@ -93,8 +93,7 @@
       "type": "boolean",
       "default": false,
       "$comment": "NOT DOCUMENTATED BY MINECRAFT",
-      "description": "TODO description",
-      "title": "TODO title"
+      "description": "TODO description"
     },
     "is_amphibious": {
       "type": "boolean",
