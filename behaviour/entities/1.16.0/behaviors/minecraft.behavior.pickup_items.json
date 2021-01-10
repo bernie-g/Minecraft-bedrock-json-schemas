@@ -22,7 +22,6 @@
     },
     "cooldown_after_being_attacked": {
       "type": "number",
-      "default": true,
       "description": "UNDOCUMENTATED",
       "title": "UNDOCUMENTATED"
     },

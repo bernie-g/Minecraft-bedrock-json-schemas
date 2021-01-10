@@ -36,7 +36,6 @@
       "must_see_forget_duration": {
         "type": "number",
         "description": "Determines the amount of time in seconds that this mob will look for a target before forgetting about it and looking for a new one when the target isn't visible any more",
-        "default": 3,
         "title": "Must See Forget Duration"
       }
     }

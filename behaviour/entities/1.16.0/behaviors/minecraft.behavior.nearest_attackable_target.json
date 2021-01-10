@@ -30,7 +30,6 @@
         },
         "must_see_forget_duration": {
           "type": "boolean",
-          "default": 3,
           "description": "Time (in seconds) the target must not be seen by this entity to become invalid. Used only if \"must_see\" is true.",
           "title": "Must see forget duration"
         }

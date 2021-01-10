@@ -15,7 +15,6 @@
     },
     "display_name": {
       "type": "string",
-      "default": 0,
       "description": "Name to be displayed while trading with this entity",
       "title": "Display Name"
     },
@@ -39,7 +38,6 @@
     },
     "table": {
       "type": "string",
-      "default": 0,
       "description": "File path relative to the resource pack root for this entity's trades",
       "title": "Table"
     }

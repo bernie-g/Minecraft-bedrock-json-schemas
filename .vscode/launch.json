@@ -9,7 +9,10 @@
       "request": "launch",
       "name": "Launch Program",
       "program": "${workspaceFolder}/behaviour/entities/1.16.100/main.ts",
-      "args": ["./behaviour/entities/1.16.100/entities.json"],
+      "args": [
+        "./behaviour/entities/1.16.100/entities.json",
+        "C:\\Users\\berni\\RiderProjects\\CowLib\\CowLib\\Schemas\\EntityFile2.cs"
+      ],
       "preLaunchTask": "tsc: build - tsconfig.json",
       "outFiles": ["${workspaceFolder}/out/**/*.js"]
     }

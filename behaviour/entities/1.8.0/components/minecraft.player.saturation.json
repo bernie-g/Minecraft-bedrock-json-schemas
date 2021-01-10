@@ -9,7 +9,6 @@
   "properties": {
     "value": {
       "type": "number",
-      "default": true,
       "title": "Value",
       "description": "UNDOCUMENTATED"
     }

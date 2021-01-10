@@ -51,7 +51,6 @@
     },
     "random_time_choices": {
       "type": "array",
-      "default": [],
       "description": "This is a list of objects, representing one value in seconds that can be picked before firing the event and an optional weight. Incompatible with time.",
       "items": {
         "properties": {

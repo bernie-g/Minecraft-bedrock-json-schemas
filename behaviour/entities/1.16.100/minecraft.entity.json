@@ -13,6 +13,7 @@
       "required": ["identifier"],
       "type": "object",
       "title": "Description",
+      "default": true,
       "description": "The description of the this entity",
       "properties": {
         "animations": {
@@ -87,6 +88,7 @@
       "description": "Each group when add / remove the default components",
       "uniqueItems": true,
       "type": "object",
+      "default": true,
       "additionalProperties": {
         "$ref": "./components.json",
         "uniqueItems": true,
@@ -94,12 +96,14 @@
       }
     },
     "components": {
+      "default": true,
       "uniqueItems": true,
       "$ref": "./components.json",
       "description": "The components that are added as the foundation of the entity",
       "title": "Components"
     },
     "events": {
+      "default": true,
       "uniqueItems": true,
       "$ref": "./events.json",
       "description": "The events that the entity can run, these add or remove components_groups",
