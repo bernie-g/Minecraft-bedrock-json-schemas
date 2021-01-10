@@ -10,7 +10,7 @@
       "minItems": 2,
       "maxItems": 2,
       "items": {
-        "$ref": "../../../molang/1.8.0/number.json",
+        "$ref": "../../../../molang/1.8.0/number.json",
         "description": "TODO description: size",
         "title": "Size"
       },
@@ -20,15 +20,7 @@
     "facing_camera_mode": {
       "description": "Used to orient the billboard.",
       "type": "string",
-      "enum": [
-        "lookat_xyz",
-        "lookat_y",
-        "rotate_xyz",
-        "rotate_y",
-        "direction_x",
-        "direction_y",
-        "direction_z"
-      ],
+      "enum": ["lookat_xyz", "lookat_y", "rotate_xyz", "rotate_y", "direction_x", "direction_y", "direction_z"],
       "title": "Facing Camera Mode"
     },
     "uv": {
@@ -55,7 +47,7 @@
               "minItems": 2,
               "maxItems": 2,
               "items": {
-                "$ref": "../../../molang/1.8.0/number.json",
+                "$ref": "../../../../molang/1.8.0/number.json",
                 "description": "TODO description: base UV",
                 "title": "Base U V"
               },
@@ -67,7 +59,7 @@
               "minItems": 2,
               "maxItems": 2,
               "items": {
-                "$ref": "../../../molang/1.8.0/number.json",
+                "$ref": "../../../../molang/1.8.0/number.json",
                 "description": "TODO description: size UV",
                 "title": "Size U V"
               },
@@ -79,7 +71,7 @@
               "minItems": 2,
               "maxItems": 2,
               "items": {
-                "$ref": "../../../molang/1.8.0/number.json",
+                "$ref": "../../../../molang/1.8.0/number.json",
                 "description": "TODO description: step UV",
                 "title": "Step U V"
               },
@@ -87,12 +79,12 @@
               "title": "Step U V"
             },
             "frames_per_second": {
-              "$ref": "../../../molang/1.8.0/number.json",
+              "$ref": "../../../../molang/1.8.0/number.json",
               "description": "TODO description: frames per second",
               "title": "Frames Per Second"
             },
             "max_frame": {
-              "$ref": "../../../molang/1.8.0/number.json",
+              "$ref": "../../../../molang/1.8.0/number.json",
               "description": "TODO description: max frame",
               "title": "Max Frame"
             },
@@ -115,7 +107,7 @@
           "minItems": 2,
           "maxItems": 2,
           "items": {
-            "$ref": "../../../molang/1.8.0/number.json",
+            "$ref": "../../../../molang/1.8.0/number.json",
             "description": "TODO description: uv",
             "title": "Uv"
           },
@@ -127,7 +119,7 @@
           "minItems": 2,
           "maxItems": 2,
           "items": {
-            "$ref": "../../../molang/1.8.0/number.json",
+            "$ref": "../../../../molang/1.8.0/number.json",
             "description": "TODO description: uv size",
             "title": "Uv Size"
           },

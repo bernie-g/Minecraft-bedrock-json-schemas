@@ -12,7 +12,7 @@
     "damage_sources": {
       "type": "array",
       "items": {
-        "$ref": "../../../general/entity_damage.json"
+        "$ref": "../../../../general/entity_damage.json"
       },
       "description": "The list of Entity Damage Sources that will cause this mob to panic",
       "title": "TODO title"

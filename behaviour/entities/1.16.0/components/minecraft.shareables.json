@@ -60,7 +60,7 @@
           "item": {
             "type": "string",
             "description": "The name of the item",
-            "$ref": "../../../general/item/identifier.json"
+            "$ref": "../../../../general/item/identifier.json"
           },
           "item_aux": {
             "type": "integer",

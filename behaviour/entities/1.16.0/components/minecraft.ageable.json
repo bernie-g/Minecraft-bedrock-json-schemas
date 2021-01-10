@@ -12,12 +12,12 @@
         {
           "type": "array",
           "items": {
-            "$ref": "../../../general/item/identifier.json"
+            "$ref": "../../../../general/item/identifier.json"
           }
         },
         {
           "type": "string",
-          "$ref": "../../../general/item/identifier.json"
+          "$ref": "../../../../general/item/identifier.json"
         }
       ],
       "title": "TODO title"
@@ -34,7 +34,7 @@
         {
           "type": "array",
           "items": {
-            "$ref": "../../../general/item/identifier.json"
+            "$ref": "../../../../general/item/identifier.json"
           }
         },
         {
@@ -46,22 +46,18 @@
                 "type": "number"
               },
               "item": {
-                "$ref": "../../../general/item/identifier.json"
+                "$ref": "../../../../general/item/identifier.json"
               }
             }
           }
         },
         {
           "type": "string",
-          "$ref": "../../../general/item/identifier.json"
+          "$ref": "../../../../general/item/identifier.json"
         }
       ],
       "title": "TODO title"
     },
-    "grow_up": {
-      "$ref": "../types/event.json",
-      "description": "Event to run when this entity grows up.",
-      "title": "TODO title"
-    }
+    "grow_up": { "$ref": "../types/event.json", "description": "Event to run when this entity grows up.", "title": "TODO title" }
   }
 }

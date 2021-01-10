@@ -18,7 +18,7 @@
           "items": {
             "minItems": 3,
             "maxItems": 3,
-            "$ref": "../../../molang/1.8.0/number.json",
+            "$ref": "../../../../molang/1.8.0/number.json",
             "description": "TODO description: Todo",
             "title": "Todo"
           },
@@ -34,7 +34,7 @@
       "items": {
         "minItems": 3,
         "maxItems": 3,
-        "$ref": "../../../molang/1.8.0/number.json",
+        "$ref": "../../../../molang/1.8.0/number.json",
         "description": "TODO description: offset",
         "title": "Offset"
       },
